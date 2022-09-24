@@ -1,7 +1,7 @@
 
 # Multi-Class Classification using Iris dataset
 
-This is a Python project for Classification of Iris species into Setosa, Versicolor and Virginica.
+This is a Python project for Classification of Iris species into `Setosa`, `Versicolor` and `Virginica`.
 
 
 ## Motivation
