@@ -1,0 +1,4 @@
+Frameworks used-
+- scikit learn
+- keras
+- numpy
