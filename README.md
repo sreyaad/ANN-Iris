@@ -1,7 +1,22 @@
-# ANN-Iris
-Activation function is a very important feature of an artificial neural network and basically decides, whether a neuron will be activated or not.
-Generally, neural networks use non-linear activation functions, which help them to learn complex data and learn from functions to predict results accurately.
-Instead of sigmoid or tanh AF, I used ReLU( Rectified Linear Unit) in hidden layer as it rectifies the vanishing gradient problem, and is also less computationally expensive.
-I used Softmax AF in the output layer, as it can handle multiple classes.
-I used SGD as Optimizer instead of Adam, even though it is slower, because Adam has convergence problems.
-Since my target classes are mutually exclusive, I used sparse categorical crossentropy instead of categorical crossentropy.
+
+# Multi-Class Classification using Iris dataset
+
+This is a Python project for Classification of Iris species into Setosa, Versicolor and Virginica.
+
+
+## Motivation
+I started this project as a motivation to learn about different Machine Learning and Deep Learning Algorithms.
+## Data Collection
+- The dataset is collected from Kaggle.
+- This dataset consists of 3 categories of species which is setosa, versicolor and virginica.
+- We can find the Iris dataset in .csv file
+- Each iris species consists of 50 samples.
+- The features of iris flower are Sepal Length in cm, Sepal Width in cm, Petal Length in cm and Petal Width in cm.
+![Image](images/iris_species.png)
+## Frameworks used
+- numpy
+- scikit learn
+- keras
+
+## Results
+ The model achieved 76.85% accuracy on training data and an accuracy of 97.78% on test data.
