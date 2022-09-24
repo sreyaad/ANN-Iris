@@ -19,4 +19,4 @@ I started this project as a motivation to learn about different Machine Learning
 - keras
 
 ## Results
- The model achieved 76.85% accuracy on training data and an accuracy of 97.78% on test data.
+ The model achieved **76.85%** accuracy on **training data** and an accuracy of **97.78%** on **test data**.
